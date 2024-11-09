@@ -5,11 +5,38 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-content: right;
+
+  
 }
 
+.first_image {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.second_image {
+
+  display: flex;
+  flex-direction: column;
+}
 .title {
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 32px;
+
+  
+
+  
+}
+
+.first_picture {
+
+  display:flex;
+  
 }
 
 /* do not edit this footer */
